@@ -9,3 +9,5 @@
 # copy db DB_CONNECTION=
 
 # install body-parser
+
+# you can use cors to use request in any domains
