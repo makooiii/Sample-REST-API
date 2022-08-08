@@ -1,7 +1,11 @@
 const express = require("express");
 const app = express();
 const mongoose = require("mongoose");
+const bodyParser = require("body-parser");
 require("dotenv/config");
+
+// convert body to json file using body parser
+app.use(bodyParser.json());
 
 // import routes
 const postRoute = require("./routes/posts");

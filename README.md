@@ -7,3 +7,5 @@
 # npm install dotenv
 
 # copy db DB_CONNECTION=
+
+# install body-parser
